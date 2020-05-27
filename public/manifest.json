@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "City Guide",
+  "name": "React Bootstrap City Guide",
   "icons": [
     {
       "src": "favicon.ico",
