@@ -1,9 +1,15 @@
 import React from 'react';
-import logo from './logo.svg';
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
+
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-function App() {
-  return <h2>Hello</h2>;
+export default function App() {
+  return (
+    <div>
+      <Navbar />
+      <Footer />
+    </div>
+  );
 }
-
-export default App;
