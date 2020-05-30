@@ -94,7 +94,7 @@ export default function Footer() {
             </div>
           </div>
           <div className='footer-bottom'>
-            <p class='text-xs-center'>
+            <p className='text-xs-center'>
               &copy;{new Date().getFullYear()} ~ React Bootstrap City Guide
             </p>
           </div>

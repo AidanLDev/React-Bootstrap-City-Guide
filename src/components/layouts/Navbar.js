@@ -26,7 +26,7 @@ export default function Navbar() {
         <ul className='navbar-nav m-auto'>
           <li className='nav-item active'>
             <Link className='nav-link text-white text-uppercase ml-5' to='/'>
-              Home <i class='fas fa-home'></i>
+              Home <i className='fas fa-home'></i>
               <span className='sr-only'>(current)</span>
             </Link>
           </li>
