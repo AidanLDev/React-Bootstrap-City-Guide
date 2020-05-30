@@ -42,30 +42,54 @@ export default function Footer() {
             <div className='col-md-3 col-sm-6'>
               <h4>Lorem Ipsum</h4>
               <ul className='list-unstyled'>
-                <li><a href="/">Lorem Ipsum</a></li>
-                <li><a href="/">Lorem Ipsum</a></li>
-                <li><a href="/">Lorem Ipsum</a></li>
-                <li><a href="/">Lorem Ipsum</a></li>
+                <li>
+                  <a href='/'>Lorem Ipsum</a>
+                </li>
+                <li>
+                  <a href='/'>Lorem Ipsum</a>
+                </li>
+                <li>
+                  <a href='/'>Lorem Ipsum</a>
+                </li>
+                <li>
+                  <a href='/'>Lorem Ipsum</a>
+                </li>
               </ul>
             </div>
             {/* Column 3 */}
             <div className='col-md-3 col-sm-6'>
               <h4>Lorem Ipsum</h4>
               <ul className='list-unstyled'>
-                <li><a href="/">Lorem Ipsum</a></li>
-                <li><a href="/">Lorem Ipsum</a></li>
-                <li><a href="/">Lorem Ipsum</a></li>
-                <li><a href="/">Lorem Ipsum</a></li>
+                <li>
+                  <a href='/'>Lorem Ipsum</a>
+                </li>
+                <li>
+                  <a href='/'>Lorem Ipsum</a>
+                </li>
+                <li>
+                  <a href='/'>Lorem Ipsum</a>
+                </li>
+                <li>
+                  <a href='/'>Lorem Ipsum</a>
+                </li>
               </ul>
             </div>
             {/* Column 4 */}
             <div className='col-md-3 col-sm-6'>
               <h4>Lorem Ipsum</h4>
               <ul className='list-unstyled'>
-                <li><a href="/">Lorem Ipsum</a></li>
-                <li><a href="/">Lorem Ipsum</a></li>
-                <li><a href="/">Lorem Ipsum</a></li>
-                <li><a href="/">Lorem Ipsum</a></li>
+                <li>
+                  <a href='/'>Lorem Ipsum</a>
+                </li>
+                <li>
+                  <a href='/'>Lorem Ipsum</a>
+                </li>
+                <li>
+                  <a href='/'>Lorem Ipsum</a>
+                </li>
+                <li>
+                  <a href='/'>Lorem Ipsum</a>
+                </li>
               </ul>
             </div>
           </div>
