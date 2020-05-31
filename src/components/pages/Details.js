@@ -152,6 +152,7 @@ export default function Details() {
           {/* Map tab */}
           <div className='tab-pane' id='map' role='tabpanel'>
             <iframe
+              title={headerTitle}
               src={maps}
               style={{
                 border: '0',

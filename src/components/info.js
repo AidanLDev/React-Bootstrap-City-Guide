@@ -1,8 +1,10 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
+import { InfoContext } from '../context';
 
 export default function Info(props) {
-  const { headerTitle, img, headerSubTitle, headerText } = props.item;
+  const infoContext = useContext(InfoContext);
+  const { headerTitle, img, headerSubTitle, headerText, id } = props.item;
   return (
     <>
       <div className='col-10 col-lg-4 mx-auto mb-5'>
@@ -15,6 +17,7 @@ export default function Info(props) {
             <Link
               to='/details'
               className='btn btn-outline-primary text-uppercase'
+              onClick={() => infoContext.handleDetail(id)}
             >
               More Info
             </Link>

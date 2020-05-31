@@ -8,6 +8,17 @@ const InfoProvider = (props) => {
   const [reviewsState, setreviewsState] = useState(reviews);
   const [detailInfoState, setdetailInfoState] = useState(detailInfo);
   const [newsState, setNewsState] = useState(news);
+
+  const getItem = (id) => {
+    const item = placeInfoState.find((item) => item.id === id);
+    return item;
+  };
+
+  const handleDetail = (id) => {
+    const item = getItem(id);
+    setdetailInfoState(item);
+  };
+
   return (
     <InfoContext.Provider
       value={{
@@ -15,6 +26,7 @@ const InfoProvider = (props) => {
         reviews: reviewsState,
         detailInfo: detailInfoState,
         news: newsState,
+        handleDetail,
       }}
     >
       {props.children}
