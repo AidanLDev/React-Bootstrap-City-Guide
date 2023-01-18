@@ -4,10 +4,10 @@ import { placeInfo, reviews, detailInfo, news } from './data';
 const InfoContext = React.createContext();
 
 const InfoProvider = (props) => {
-  const [placeInfoState, setplaceInfoState] = useState(placeInfo);
-  const [reviewsState, setreviewsState] = useState(reviews);
-  const [detailInfoState, setdetailInfoState] = useState(detailInfo);
-  const [newsState, setNewsState] = useState(news);
+  const [placeInfoState] = useState(placeInfo);
+  const [reviewsState] = useState(reviews);
+  const [detailInfoState, setDetailInfoState] = useState(detailInfo);
+  const [newsState] = useState(news);
 
   const getItem = (id) => {
     const item = placeInfoState.find((item) => item.id === id);
@@ -16,7 +16,7 @@ const InfoProvider = (props) => {
 
   const handleDetail = (id) => {
     const item = getItem(id);
-    setdetailInfoState(item);
+    setDetailInfoState(item);
   };
 
   return (

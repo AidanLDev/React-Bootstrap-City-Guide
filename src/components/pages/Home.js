@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import { InfoContext } from '../../context';
-import Info from '../Info';
+import Info from '../InfoComp';
 export default function Home() {
   const contextValue = useContext(InfoContext);
   return (
